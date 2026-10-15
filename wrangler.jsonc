@@ -18,7 +18,7 @@
   }
 ],
 	"vars": {
-		"APP_URL": "http://localhost:8787",
+		"APP_URL": "https://sa-lawn-website.carrasquilla-nicholas.workers.dev",
 		"GOOGLE_CALENDAR_ID": "primary",
 		"EMAIL_FROM": "S&A Lawn Care <bookings@your-domain.com>"
 	},
