@@ -1,0 +1,9 @@
+# Copy this file to .dev.vars for optional local development. Do not upload .dev.vars.
+APP_URL="http://localhost:8787"
+ADMIN_EMAIL="owner@example.com"
+GOOGLE_CLIENT_ID="your-web-oauth-client-id"
+GOOGLE_CLIENT_SECRET="your-web-oauth-client-secret"
+TOKEN_ENCRYPTION_KEY="replace-with-64-hex-characters"
+GOOGLE_CALENDAR_ID="primary"
+RESEND_API_KEY="your-resend-api-key"
+EMAIL_FROM="S&A Lawn Care <bookings@your-domain.com>"

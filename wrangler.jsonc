@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "sa-lawn-care",
+  "main": "server/worker.ts",
+  "compatibility_date": "2026-05-15",
+  "assets": { "directory": "./dist", "binding": "ASSETS", "not_found_handling": "single-page-application", "run_worker_first": true },
+  "d1_databases": [{ "binding": "DB", "database_name": "sa-lawn-care", "database_id": "REPLACE_WITH_YOUR_D1_DATABASE_ID", "migrations_dir": "migrations" }],
+  "vars": { "APP_URL": "http://localhost:8787", "GOOGLE_CALENDAR_ID": "primary", "EMAIL_FROM": "S&A Lawn Care <bookings@your-domain.com>" },
+  "triggers": { "crons": ["*/5 * * * *"] },
+  "observability": { "enabled": true }
+}

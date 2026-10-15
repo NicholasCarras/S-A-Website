@@ -1,0 +1,1 @@
+export default function Brand() { return <a className="brand" href="/" aria-label="S&A Lawn Care home"><img className="company-logo" src="/assets/sa-logo.png" alt="S&A Lawn Care" width="272" height="122"/></a>; }
